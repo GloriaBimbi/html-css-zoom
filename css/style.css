@@ -27,3 +27,43 @@ a {
   max-width: 1080px;
   padding: 0;
 }
+
+:root {
+  --back-colorblack: black;
+}
+
+/* HEADER */
+header {
+  height: 50px;
+  background-color: var(--back-colorblack);
+  padding: 3px;
+
+  /* ddebug */
+  border-bottom: 2px solid white;
+}
+
+.header__d-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.header__button {
+  border-radius: 0.5rem;
+  padding: 5px;
+  background-color: rgb(74 74 74);
+  color: white;
+  font-size: 9px;
+}
+
+/* MAIN */
+main {
+  height: calc(100vh - 50px - 100px);
+  background-color: var(--back-colorblack);
+}
+
+/* FOOTER */
+footer {
+  height: 100px;
+  background-color: rgb(34 34 34);
+}
