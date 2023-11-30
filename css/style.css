@@ -61,7 +61,7 @@ header {
 
 /* MAIN */
 main {
-  height: calc(100vh - 50px - 100px);
+  height: calc(100vh - 50px - 60px);
   background-color: var(--back-colorblack);
 }
 
@@ -96,7 +96,58 @@ main {
 
 /* FOOTER */
 footer {
-  height: 100px;
+  height: 60px;
   overflow: hidden;
   background-color: rgb(34 34 34);
+  padding: 10px;
+}
+
+.footer__d-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer__section {
+  padding-left: 10px;
+}
+
+.command {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.command i {
+  padding: 5px;
+}
+
+.command-list {
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+.command-name {
+  font-size: 10px;
+}
+
+.footer__section-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* section-center */
+.footer__section-center {
+  display: flex;
+  align-items: center;
+}
+
+/* section-right */
+.end-meeting {
+  height: 100%;
+  background-color: rgb(74 74 74);
+  color: red;
+  padding: 10px;
 }
