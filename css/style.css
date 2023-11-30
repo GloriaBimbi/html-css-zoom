@@ -7,6 +7,7 @@
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 ul {
@@ -92,7 +93,7 @@ main {
   padding: 2px;
   font-size: 10px;
   position: absolute;
-  bottom: 3px;
+  bottom: 0px;
   left: 0;
 }
 
